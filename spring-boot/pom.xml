@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>laurynasp.examples</groupId>
+    <artifactId>spring-boot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>java-examples</name>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>core-gui</module>
+        <module>core</module>
+    </modules>
+
+    <properties>
+        <java.version>11</java.version>
+        <node.version>v13.11.0</node.version>
+        <npm.version>6.13.7</npm.version>
+        <frontend-maven-plugin.version>1.9.1</frontend-maven-plugin.version>
+    </properties>
+
+</project>
